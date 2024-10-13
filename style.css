@@ -1,0 +1,762 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.5; 
+         /* transform: translateX(0px); */
+        /* clip-path: insert(100% 100% 0 0); width and height grow */
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+         /* transform: translateX(0px); */
+        /* clip-path: inset(0,0,0); */
+    }
+}
+
+/* * {
+    animation: appear linear;;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+}   */
+
+.section-1 {
+    background-color: #eff4f7;
+    height: 30px;
+}
+
+.navbar-nav a {
+    padding-right: 15px;
+}
+
+
+.navbar-nav a:hover {
+    color: #000;
+    font-weight: 600;
+    
+}
+
+
+.section-1 span {
+    font-weight: 600;
+}
+
+
+
+.section-2 {
+    margin-top: 60px;
+}
+
+.section-2 img{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* <p class="khan text-center pt-1"><span>14.8mm   drives</span>  &  earbuds  with  Air  Conduction  Tech.<span>  Rockerz  261  Pro</span> is  available  now!</p> */
+
+.section-3 .ahshan {
+    
+    color: #1a2024;
+}
+
+.section-3 .ahshan span {
+    font-weight: 700;
+    position: relative;
+}
+
+.section-3 .ahshan span::after {
+    content: "";
+    position: absolute;
+    left: 1.2em;;
+    bottom: 0;
+    height: 3px;
+    border-radius: 40px;
+    width: 40%;
+    background-color: #ed1c24;
+    transition: all ease-in 1s;                 
+}
+
+.section-3 .ahshan{
+    padding-left: 20px;
+}
+
+.section-3 .khan {
+    margin-left: 1200px;
+    color: #2f5b96;
+}
+
+.section-4 img {
+    border-radius: 20px;
+}
+
+.section-5 .card {
+    box-shadow: 6px 6px 15px #a8abad;
+}
+
+
+
+.section-5 .card img {
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+}
+
+.section-5 .up {
+    width: 242px;
+    height: 25px;
+    border-radius: 30px;
+    background-color: #fcc50b;
+    color: #000;
+    font-size: 12px;
+    outline: 0;
+    border:0;
+    margin-left: 30px;
+    margin-top: 410px;
+    font-weight: 600;
+}
+
+.section-5 .ahshan h6 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+
+.section-5 .box {
+    margin-left: 160px;
+    
+}
+
+.section-5 .ahshan .box-1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #eff4ef;
+    
+    
+}
+
+.section-5 .ahshan .box-2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.section-5 .card-body .ear-1 {
+    font-size:  16px;
+    color: #1a2024;
+    font-weight: 600;
+}
+
+.section-5 .card-body .ear-2 {
+    font-size: 14px;
+    color: #b2b9bf;
+    text-decoration: line-through;
+    margin-top: 3px;
+    
+}
+
+.section-5 .card-body .ear p {
+    color: #12b985;
+    margin-left: 7px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.section-5 .card-body .star img {
+    width: 15px;
+    height: 15px;
+}
+
+.section-5 .card-body .star p {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.section-5 .card-body .star button {
+    width: 120px;
+    height: 45px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    margin-left: 130px;
+}
+
+.section-6 .ahshan {
+    color: #1a2024;
+}
+
+.section-6 .ahshan span {
+    font-weight: 700;
+    position: relative;
+}
+
+.section-6 .ahshan span::after {
+    content: "";
+    position: absolute;
+    left: 4.1em;;
+    bottom: 0;
+    height: 3px;
+    border-radius: 40px;
+    width: 18%;
+    background-color: #ed1c24;
+    
+}
+
+.section-6 .ahshan{
+    padding-left: 40px;
+}
+
+.section-6 .khan {
+    margin-left: 1100px;
+    color: #2f5b96;
+}
+
+.section-7 span {
+    font-weight: 600;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.section-8 .ahshan {
+    color: #1a2024;
+}
+
+.section-8 .ahshan span {
+    font-weight: 700;
+    position: relative;
+}
+
+.section-8 .ahshan span::after {
+    content: "";
+    position: absolute;
+    left: 3.8em;;
+    bottom: 0;
+    height: 3px;
+    border-radius: 40px;
+    width: 18%;
+    background-color: #ed1c24;
+    
+}
+
+.section-8 .ahshan{
+    padding-left: 40px;
+}
+
+.section-8 .khan {
+    margin-left: 1100px;
+    color: #2f5b96;
+}
+
+.section-9  video {
+    border-radius: 20px;
+}
+
+.section-9 .card {
+    border: 0;
+}
+
+.section-9 span {
+    font-weight: 600;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+.section-10 .ahshan {
+    color: #1a2024;
+}
+
+.section-10 .ahshan span {
+    font-weight: 700;
+    position: relative;
+}
+
+.section-10 .ahshan span::after {
+    content: "";
+    position: absolute;
+    left: 2.6em;;
+    bottom: 0;
+    height: 3px;
+    border-radius: 40px;
+    width: 28%;
+    background-color: #ed1c24;
+    
+}
+
+.section-10 .ahshan{
+    padding-left: 40px;
+}
+
+.section-10 .khan {
+    margin-left: 1100px;
+    color: #2f5b96;
+}
+
+.section-11 .card {
+    box-shadow: 6px 6px 15px #a8abad;
+}
+
+
+
+.section-11 .card img {
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+}
+
+.section-11 .up {
+    width: 242px;
+    height: 25px;
+    border-radius: 30px;
+    background-color: #fcc50b;
+    color: #000;
+    font-size: 12px;
+    outline: 0;
+    border:0;
+    margin-left: 30px;
+    margin-top: 325px;
+    font-weight: 600;
+}
+
+.section-11 .ahshan h6 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+
+.section-11 .box {
+    margin-left: 160px;
+    
+}
+
+.section-11 .ahshan .box-1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #009081;
+    
+    
+}
+
+.section-11 .ahshan .box-2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.section-11 .card-body .ear-1 {
+    font-size:  16px;
+    color: #1a2024;
+    font-weight: 600;
+}
+
+.section-11 .card-body .ear-2 {
+    font-size: 14px;
+    color: #b2b9bf;
+    text-decoration: line-through;
+    margin-top: 3px;
+    
+}
+
+.section-11 .card-body .ear p {
+    color: #12b985;
+    margin-left: 7px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.section-11 .card-body .star img {
+    width: 15px;
+    height: 15px;
+}
+
+.section-11 .card-body .star p {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.section-11 .card-body .star button {
+    width: 120px;
+    height: 45px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    margin-left: 130px;
+}
+
+.section-12 .ahshan {
+    color: #1a2024;
+}
+
+.section-12 .ahshan span {
+    font-weight: 700;
+    position: relative;
+}
+
+.section-12 .ahshan span::after {
+    content: "";
+    position: absolute;
+    left: 2.7em;;
+    bottom: 0;
+    height: 3px;
+    border-radius: 40px;
+    width: 23%;
+    background-color: #ed1c24;
+    
+}
+
+.section-12 .ahshan{
+    padding-left: 40px;
+}
+
+.section-13 .khan {
+    color: #2f5b96;
+    margin-left: 120px;
+}
+
+.section-13 .card {
+    border: 0;
+    outline: 0;
+}
+
+.section-13 .card-body {
+    background-color: #eff4f7;
+}
+
+.section-14 .ahshan {
+    color: #1a2024;
+}
+
+.section-14 .ahshan span {
+    font-weight: 700;
+    position: relative;
+}
+
+.section-14 .ahshan span::after {
+    content: "";
+    position: absolute;
+    left: 1.3em;;
+    bottom: 0;
+    height: 3px;
+    border-radius: 40px;
+    width: 43%;
+    background-color: #ed1c24;
+    
+}
+
+.section-14 .ahshan{
+    padding-left: 40px;
+}
+
+.section-14 .khan {
+    margin-left: 1100px;
+    color: #2f5b96;
+}
+
+.section-15 .card {
+    box-shadow: 6px 6px 15px #a8abad;
+}
+
+
+
+.section-15 .card img {
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+}
+
+.section-15 .up {
+    width: 242px;
+    height: 25px;
+    border-radius: 30px;
+    background-color: #fcc50b;
+    color: #000;
+    font-size: 12px;
+    outline: 0;
+    border:0;
+    margin-left: 30px;
+    margin-top: 410px;
+    font-weight: 600;
+}
+
+.section-15 .ahshan h6 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+
+.section-15 .box {
+    margin-left: 160px;
+    
+}
+
+.section-15 .ahshan .box-1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #009081;
+    
+    
+}
+
+.section-15 .ahshan .box-2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.section-15 .card-body .ear-1 {
+    font-size:  16px;
+    color: #1a2024;
+    font-weight: 600;
+}
+
+.section-15 .card-body .ear-2 {
+    font-size: 14px;
+    color: #b2b9bf;
+    text-decoration: line-through;
+    margin-top: 3px;
+    
+}
+
+.section-15 .card-body .ear p {
+    color: #12b985;
+    margin-left: 7px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.section-15 .card-body .star img {
+    width: 15px;
+    height: 15px;
+}
+
+.section-15 .card-body .star p {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.section-15 .card-body .star button {
+    width: 120px;
+    height: 45px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    margin-left: 130px;
+}
+
+.section-16 .ahshan {
+    color: #1a2024;
+}
+
+.section-16 .ahshan span {
+    font-weight: 700;
+    position: relative;
+}
+
+.section-16 .ahshan span::after {
+    content: "";
+    position: absolute;
+    left: 1.3em;;
+    bottom: 0;
+    height: 3px;
+    border-radius: 40px;
+    width: 43%;
+    background-color: #ed1c24;
+    
+}
+
+.section-16 .ahshan{
+    padding-left: 40px;
+}
+
+.section-16 .khan {
+    margin-left: 1100px;
+    color: #2f5b96;
+}
+
+
+
+
+
+
+
+.section-19 .ahshan {
+    color: #1a2024;
+}
+
+.section-19 .ahshan span {
+    font-weight: 700;
+    position: relative;
+}
+
+.section-19 .ahshan span::after {
+    content: "";
+    position: absolute;
+    left: 1.7em;;
+    bottom: 0;
+    height: 3px;
+    border-radius: 40px;
+    width: 38%;
+    background-color: #ed1c24;
+    
+}
+
+.section-19 .ahshan{
+    padding-left: 40px;
+}
+
+.section-19 .khan {
+    margin-left: 1100px;
+    color: #2f5b96;
+}
+
+.section-20 .card-body {
+    border-radius: 15px;
+}
+
+.section-20 .card img {
+    border-radius: 10px 10px 0 0;
+}
+
+.section-20 p {
+    color: #868c91;
+    font-size: 15px;
+}
+
+.section-20 h6 {
+    color: #191e23;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.section-20 h5 {
+    font-size: 14px;
+    color: #868c91;
+}
+
+.section-20 button {
+    width: 316px;
+    height: 47px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #000;
+    border-radius: 25px;
+    background-color: #fff;
+    border: 1px solid #b2b9bf;
+    
+}
+
+.section-21 .ahshan {
+    color: #1a2024;
+}
+
+.section-21 .ahshan span {
+    font-weight: 700;
+    position: relative;
+}
+
+.section-21 .ahshan span::after {
+    content: "";
+    position: absolute;
+    left: 1.7em;;
+    bottom: 0;
+    height: 3px;
+    border-radius: 40px;
+    width: 38%;
+    background-color: #ed1c24;
+    
+}
+
+.section-21 .ahshan{
+    padding-left: 40px;
+}
+
+.section-21 .khan {
+    margin-left: 1100px;
+    color: #2f5b96;
+}
+
+.section-22 {
+    background-color: #111;
+    margin-top: 60px;
+}
+
+.section-22 h4 {
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.section-22 p {
+    color: #81848a;
+}
+
+.section-22 i {
+    width: 30px;
+    height: 30px;
+    font-size: 17px;
+    background-color: #ed1c24;
+    color: #fff;
+    border-radius: 3px;
+    /* padding: 8px; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-22 .fa-linkedin-in, .fa-twitter, .fa-google-plus-g {
+    margin-left: 15px;
+}
+
+.section-22 i:hover {
+    background-color: #ed1c24;
+}
+
+.section-22 .col-8 span {
+    color: #ed1c24;
+ }
+
+
+
+
+
+
+
+
+
+
+
